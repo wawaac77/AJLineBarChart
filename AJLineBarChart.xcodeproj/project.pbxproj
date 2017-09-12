@@ -15,6 +15,8 @@
 		788ACBB81F682F4A0054DD4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788ACBB61F682F4A0054DD4C /* LaunchScreen.storyboard */; };
 		788ACBC31F682F4A0054DD4C /* AJLineBarChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACBC21F682F4A0054DD4C /* AJLineBarChartTests.m */; };
 		788ACBCE1F682F4A0054DD4C /* AJLineBarChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACBCD1F682F4A0054DD4C /* AJLineBarChartUITests.m */; };
+		788ACF661F682F830054DD4C /* ZZLineBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACF631F682F830054DD4C /* ZZLineBarChart.m */; };
+		788ACF671F682F830054DD4C /* LLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACF651F682F830054DD4C /* LLLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		788ACBC91F682F4A0054DD4C /* AJLineBarChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJLineBarChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		788ACBCD1F682F4A0054DD4C /* AJLineBarChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJLineBarChartUITests.m; sourceTree = "<group>"; };
 		788ACBCF1F682F4A0054DD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		788ACF621F682F830054DD4C /* ZZLineBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLineBarChart.h; sourceTree = "<group>"; };
+		788ACF631F682F830054DD4C /* ZZLineBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLineBarChart.m; sourceTree = "<group>"; };
+		788ACF641F682F830054DD4C /* LLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLayer.h; sourceTree = "<group>"; };
+		788ACF651F682F830054DD4C /* LLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		788ACBA71F682F4A0054DD4C /* AJLineBarChart */ = {
 			isa = PBXGroup;
 			children = (
+				788ACF681F682F900054DD4C /* AJLineBarChartView */,
 				788ACBAB1F682F4A0054DD4C /* AppDelegate.h */,
 				788ACBAC1F682F4A0054DD4C /* AppDelegate.m */,
 				788ACBAE1F682F4A0054DD4C /* ViewController.h */,
@@ -138,6 +145,17 @@
 				788ACBCF1F682F4A0054DD4C /* Info.plist */,
 			);
 			path = AJLineBarChartUITests;
+			sourceTree = "<group>";
+		};
+		788ACF681F682F900054DD4C /* AJLineBarChartView */ = {
+			isa = PBXGroup;
+			children = (
+				788ACF621F682F830054DD4C /* ZZLineBarChart.h */,
+				788ACF631F682F830054DD4C /* ZZLineBarChart.m */,
+				788ACF641F682F830054DD4C /* LLLayer.h */,
+				788ACF651F682F830054DD4C /* LLLayer.m */,
+			);
+			name = AJLineBarChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +249,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 788ACB9C1F682F490054DD4C;
 			productRefGroup = 788ACBA61F682F4A0054DD4C /* Products */;
@@ -277,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				788ACBB01F682F4A0054DD4C /* ViewController.m in Sources */,
+				788ACF671F682F830054DD4C /* LLLayer.m in Sources */,
 				788ACBAD1F682F4A0054DD4C /* AppDelegate.m in Sources */,
+				788ACF661F682F830054DD4C /* ZZLineBarChart.m in Sources */,
 				788ACBAA1F682F4A0054DD4C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

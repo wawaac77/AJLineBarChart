@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZZLineBarChart.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.frame = [UIScreen mainScreen].bounds;
+    
+    NSMutableArray *colors =[[NSMutableArray alloc] initWithObjects:[UIColor darkGrayColor],[UIColor blueColor], [UIColor yellowColor],[UIColor purpleColor], [UIColor grayColor], nil];
+    NSMutableArray *nums =[[NSMutableArray alloc] initWithObjects:@0.2, @0.35, @0.28, @0.12, @0.05, nil];
+    NSMutableArray *lowerLabels =[[NSMutableArray alloc] initWithObjects:@"0-19", @"20-35", @"36-45", @"46-65", @"66+", nil];
+    
+    ZZLineBarChart *barChart = [[ZZLineBarChart alloc] init];
+    [barChart setBarFrame:CGRectMake(10, 45, self.view.frame.size.width - 20, 20) nums:nums colors:colors upperLabels:NULL lowerLabels:lowerLabels];
+    
+    [self.view addSubview:barChart];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 
