@@ -24,7 +24,7 @@
     NSMutableArray *lowerLabels =[[NSMutableArray alloc] initWithObjects:@"0-19", @"20-35", @"36-45", @"46-65", @"66+", nil];
     
     ZZLineBarChart *barChart = [[ZZLineBarChart alloc] init];
-    [barChart setBarFrame:CGRectMake(10, 45, self.view.frame.size.width - 20, 20) nums:nums colors:colors upperLabels:NULL lowerLabels:lowerLabels];
+    [barChart setBarFrame:CGRectMake(10, 100, self.view.frame.size.width - 20, 20) nums:nums colors:colors upperLabels:NULL lowerLabels:lowerLabels];
     
     [self.view addSubview:barChart];
 

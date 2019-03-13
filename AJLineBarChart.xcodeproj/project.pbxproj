@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		787FD4E422390D4D00D9D536 /* linebar_screencap.png in Resources */ = {isa = PBXBuildFile; fileRef = 787FD4E322390D4D00D9D536 /* linebar_screencap.png */; };
 		788ACBAA1F682F4A0054DD4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACBA91F682F4A0054DD4C /* main.m */; };
 		788ACBAD1F682F4A0054DD4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACBAC1F682F4A0054DD4C /* AppDelegate.m */; };
 		788ACBB01F682F4A0054DD4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ACBAF1F682F4A0054DD4C /* ViewController.m */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		787FD4E322390D4D00D9D536 /* linebar_screencap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linebar_screencap.png; sourceTree = "<group>"; };
 		788ACBA51F682F4A0054DD4C /* AJLineBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJLineBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788ACBA91F682F4A0054DD4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		788ACBAB1F682F4A0054DD4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		787FD4E222390D3B00D9D536 /* ScreenCap */ = {
+			isa = PBXGroup;
+			children = (
+				787FD4E322390D4D00D9D536 /* linebar_screencap.png */,
+			);
+			path = ScreenCap;
+			sourceTree = "<group>";
+		};
 		788ACB9C1F682F490054DD4C = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +117,7 @@
 		788ACBA71F682F4A0054DD4C /* AJLineBarChart */ = {
 			isa = PBXGroup;
 			children = (
+				787FD4E222390D3B00D9D536 /* ScreenCap */,
 				788ACF681F682F900054DD4C /* AJLineBarChartView */,
 				788ACBAB1F682F4A0054DD4C /* AppDelegate.h */,
 				788ACBAC1F682F4A0054DD4C /* AppDelegate.m */,
@@ -269,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787FD4E422390D4D00D9D536 /* linebar_screencap.png in Resources */,
 				788ACBB81F682F4A0054DD4C /* LaunchScreen.storyboard in Resources */,
 				788ACBB51F682F4A0054DD4C /* Assets.xcassets in Resources */,
 				788ACBB31F682F4A0054DD4C /* Main.storyboard in Resources */,
@@ -540,6 +552,7 @@
 				788ACBD41F682F4A0054DD4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		788ACBD51F682F4A0054DD4C /* Build configuration list for PBXNativeTarget "AJLineBarChartTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +561,7 @@
 				788ACBD71F682F4A0054DD4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		788ACBD81F682F4A0054DD4C /* Build configuration list for PBXNativeTarget "AJLineBarChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +570,7 @@
 				788ACBDA1F682F4A0054DD4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
